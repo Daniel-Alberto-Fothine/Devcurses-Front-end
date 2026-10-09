@@ -7,7 +7,6 @@ import logo from "../../assets/images/logo-white.png"
 import Button from "../Button/Button"
 import Input from "../Input/Input"
 
-import "./navbar.css"
 
 
 
@@ -35,7 +34,7 @@ export default function Navbar(){
 
                 {/**acções */}
                 <div className="flex items-center gap-4">
-                    
+
                     <a href="/login" className="border bg-transparent border-border py-2 px-4 hidden md:flex rounded-lg text-text-primary hover:text-text-primary hover:border-primary">Entrar</a>
 
                     <a href="/cadastro" className="bg-primary rounded-lg font-semibold hidden md:flex text-white hover:bg-primary-dark py-3 px-4">Criar conta</a>
