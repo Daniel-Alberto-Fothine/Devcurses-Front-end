@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    text-align: center;
+    color: black;
+    background: #c12a2a;
+    font-weight: bold;
+    position: sticky;
+    padding: 10px 30px;
+    h2{
+        color: #000;
+    }
+    min-height: 40px;
+    img{
+        size: 20px;
+    }
+    box-shadow: o 5px 15px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    width: 79px;
+    height: auto;
+}
+.nave{
+    display: flex;
+    margin: 5px;
+}

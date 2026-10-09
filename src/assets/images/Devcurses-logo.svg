@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente Principal (Azul - Roxo) -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="45%" stop-color="#6366F1" />
+      <stop offset="80%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#D946EF" />
+    </linearGradient>
+  </defs>
+
+  <!-- ÍCONE DO LOGÓTIPO -->
+  <g id="logo-icon">
+    <!-- Chapéu de Formatura -->
+    <!-- Topo do Chapéu -->
+    <path d="M 195 105 L 260 135 L 195 165 L 130 135 Z" fill="url(#primaryGrad)" />
+    
+    <!-- Base do Chapéu -->
+    <path d="M 152 146 C 152 146, 195 178, 238 146 V 162 C 238 175, 152 175, 152 162 Z" fill="url(#primaryGrad)" />
+
+    <!-- Borla / Fita do Chapéu -->
+    <circle cx="250" cy="132" r="3" fill="#A855F7" />
+    <path d="M 250 132 Q 262 145 260 165 L 260 178" stroke="url(#primaryGrad)" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 257 178 C 255 188 265 188 263 178 Z" fill="url(#primaryGrad)" />
+
+    <!-- Contentores / Brackets < > -->
+    <!-- Esquerdo < -->
+    <path d="M 135 180 L 85 225 L 135 270" stroke="url(#primaryGrad)" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Direito > -->
+    <path d="M 255 180 L 305 225 L 255 270" stroke="url(#primaryGrad)" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Letra D (Branca com Cursor de Código) -->
+    <path d="M 152 182 H 182 C 208 182 225 198 225 225 C 225 252 208 268 182 268 H 152 Z" fill="#FFFFFF" />
+    <path d="M 169 198 H 180 C 195 198 206 208 206 225 C 206 242 195 252 180 252 H 169 Z" fill="#080914" />
+    
+    <!-- Cursor dentro do D -->
+    <rect x="175" y="238" width="16" height="6" rx="3" fill="#FFFFFF" />
+  </g>
+
+  <!-- TEXTO DO LOGÓTIPO -->
+  <g id="logo-text" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif">
+    <!-- DevCurses -->
+    <text x="365" y="240" font-size="78" font-weight="800">
+      <tspan fill="#FFFFFF">Dev</tspan><tspan fill="url(#primaryGrad)">Curses</tspan>
+    </text>
+
+    <!-- Slogan: APRENDA. CODE. EVOLUA. -->
+    <text x="370" y="278" font-size="17" font-weight="700" letter-spacing="6.5">
+      <tspan fill="#FFFFFF">APRENDA. </tspan>
+      <tspan fill="url(#primaryGrad)">CODE. </tspan>
+      <tspan fill="#FFFFFF">EVOLUA.</tspan>
+    </text>
+  </g>
+</svg>
