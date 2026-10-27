@@ -17,7 +17,7 @@ export default function Navbar(){
         {/**Botão Menu para mobile. */}
     const [menuOpen, setMenuOpen]= useState<boolean>(false);
     return(
-        <nav className='sticky border-b bg-surface border-border'>
+        <nav className='sticky top-0 z-100 border-b bg-surface border-border'>
             <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-4">
                 
                 <a href="">

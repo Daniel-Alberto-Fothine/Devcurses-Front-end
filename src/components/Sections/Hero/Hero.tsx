@@ -25,7 +25,7 @@ function Hero(){
                         <h1 className="font-bold leading-12 text-4xl md:text-5xl">Aprenda programação e construa <strong className="text-primary">projectos reais.</strong></h1>
 
                         {/**Discrição */}
-                        <p className="font-normal text-text-secundary text-sm">Desenvolva as suas <strong className="text-text-primary">competências </strong>com cursos práticos, aprende ao seu ritmo e transforme ideias em projetos que realmente funciona.</p>
+                        <p className="font-normal text-text-secundary text-sm">Desenvolva as suas <strong className="text-text-primary">competências </strong>com cursos práticos, aprende ao seu ritmo e transforme ideias em projetos que realmente funcionam.</p>
 
                         <div className="flex gap-2 flex-wrap">
 
